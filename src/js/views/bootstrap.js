@@ -45,7 +45,7 @@
         var label = $(fieldEl).find("label.alpaca-control-label");
         if ($(label).length > 0)
         {
-            $(label).append("<span class='alpaca-required-indicator'>(required)</span>")
+            $(label).append("<span class='alpaca-required-indicator' style='font-weight:bold;color:red;'>*</span>")
         }
 
     };
